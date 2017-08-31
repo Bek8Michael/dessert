@@ -8,9 +8,10 @@ import javax.servlet.http.HttpServletResponse;
 import dao.CustomerDao;
 import model.Customer;
 
-public class CustomerJoin implements CommandProcess {
+public class CustomerUpdate implements CommandProcess {
 	public String requestPro(HttpServletRequest request, HttpServletResponse response) {
-		System.out.println("cusr No(in CustomerJoin.java) = "+request.getParameter("cust_no"));
+		System.out.println("cusr_No(in CustomerUpdate.java) = "+request.getParameter("cust_id"));
+		System.out.println("customerUpdate 접속");
 		int cust_no = Integer.parseInt(request.getParameter("cust_no"));
 		String cust_id = request.getParameter("cust_id");
 		String cust_pw = request.getParameter("cust_pw");
@@ -20,9 +21,9 @@ public class CustomerJoin implements CommandProcess {
 		String cust_tel = request.getParameter("cust_tel");
 		String cust_addr = request.getParameter("cust_addr");
 		String cust_grade = request.getParameter("cust_grade");
-		//int cust_point = Integer.parseInt(request.getParameter("cust_point"));
-		//String cust_out = request.getParameter("cust_out");
-		//String cust_del = request.getParameter("cust_del");
+		int cust_point = Integer.parseInt(request.getParameter("cust_point"));
+		String cust_out = request.getParameter("cust_out");
+		String cust_del = request.getParameter("cust_del");
 		Customer cust = new Customer();
 		cust.setCust_no(cust_no);
 		cust.setCust_id(cust_id);
@@ -48,10 +49,10 @@ public class CustomerJoin implements CommandProcess {
 		request.setAttribute("cust_tel", cust_tel);
 		request.setAttribute("cust_addr", cust_addr);
 		request.setAttribute("cust_grade", cust_grade);
-		//request.setAttribute("cust_point", cust_point);
-		//request.setAttribute("cust_out", cust_out);
-		///request.setAttribute("cust_del", cust_del);
+		request.setAttribute("cust_point", cust_point);
+		request.setAttribute("cust_out", cust_out);
+		request.setAttribute("cust_del", cust_del);
 		
-		return "customerJoin.jsp";
+		return "customerUpdateForm.jsp";
 	}
 }

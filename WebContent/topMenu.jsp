@@ -46,11 +46,19 @@
 					<li class="dropdown"><a  class="dropdown-toggle"
 						data-toggle="dropdown">Login <b class="caret"></b></a>
 						<ul class="dropdown-menu">
+							<c:if test="${empty cust_id}">
 							<li><a href="loginForm.jsp">Log-in</a></li>
-							<li><a href="customerJoinForm.do">Join</a></li>
-							<li><a href="logout.do">Log-out</a></li>
+						</c:if>
+						<c:if test="${!empty cust_id}">
+							<li><a>ID : ${cust_id } 님</a></li>
+							<li><a href="customerUpdateForm.do">회원정보</a></li>
+						</c:if>
+						<c:if test="${empty cust_id}">
+							<li><a href="customerJoinForm.jsp">Join</a></li>
+						</c:if>
+						<li><a href="logout.do">Log-out</a></li>
 
-						</ul></li>
+					</ul></li>
 					<c:if test="${cust_id eq 'admin' }">
 					<li><a href="admin.jsp">Admin</a></li>
 					</c:if>

@@ -13,9 +13,9 @@ CREATE TABLE customer
 	cust_out             VARCHAR2(20) NULL,
 	cust_del             VARCHAR2(20)
 )
-insert into CUSTOMER values(0,'a0','a0','Tom0','Tony0',sysdate,'010-234-1234','Seoul','begginer',10,'n','n')
+insert into CUSTOMER values(2,'a2','a2','Tom2','Tony2',sysdate,'010-234-1234','Seoul','begginer',10,'n','n')
 insert into CUSTOMER values(1,'admin','admin','Tom0','Tony0',sysdate,'010-234-1234','Seoul','begginer',10,'n','n')
-insert into product values(2, 'cake2', 'korea', 'love', 'top', 0, 'n')
+insert into product values(2, 'cake2', 'korea', 'love', 'top', 1, 'n')
 delete CUSTOMER where cust_no =1
 select * from CUSTOMER
 drop table product
@@ -30,7 +30,7 @@ CREATE TABLE product
 	prod_del             VARCHAR2(20)
 )
 drop table shop
-insert into SHOP values(1,'cafe1','Seoul','Kangnam','123-123-1234','10-23','"0","1"','A',sysdate,'Korea','n')
+insert into SHOP values(0,'cafe0','Seoul','Kangnam','123-123-1234','10-23','"0","1"','A',sysdate,'Korea','n')
 select * from shop order by shop_no
 CREATE TABLE shop
 (
