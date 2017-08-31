@@ -45,7 +45,7 @@
 			<div class="col-md-4">
 				<h3>Contact Details</h3>
 				<p>
-					3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+					3481 KangNam Gu Computer Academy<br>Kangnam Daero, KR 877321<br>
 				</p>
 				<p>
 					<i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (123)
@@ -53,20 +53,20 @@
 				</p>
 				<p>
 					<i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a
-						href="mailto:name@example.com">name@example.com</a>
+						href="mailto:maengbk84@gmail.com">maengbk84@gmail.com</a>
 				</p>
 				<p>
 					<i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday
-					- Friday: 9:00 AM to 5:00 PM
+					- Friday: 10:00 AM to 5:00 PM
 				</p>
 				<ul class="list-unstyled list-inline list-social-icons">
-					<li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+					<li><a href="www.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>
 					</li>
-					<li><a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+					<li><a href="www.linkedin.com"><i class="fa fa-linkedin-square fa-2x"></i></a>
 					</li>
-					<li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+					<li><a href="www.twitter.com"><i class="fa fa-twitter-square fa-2x"></i></a>
 					</li>
-					<li><a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+					<li><a href="www.google.com"><i class="fa fa-google-plus-square fa-2x"></i></a>
 					</li>
 				</ul>
 			</div>
@@ -125,7 +125,7 @@
 		<footer>
 			<div class="row">
 				<div class="col-lg-12">
-					<p>Copyright &copy; Your Website 2014</p>
+					<p>Copyright &copy; Your D'easyert 2017</p>
 				</div>
 			</div>
 		</footer>

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
-<%@ include file="loginChk.jsp" %>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
@@ -47,10 +48,12 @@
 						<ul class="dropdown-menu">
 							<li><a href="loginForm.jsp">Log-in</a></li>
 							<li><a href="customerJoinForm.do">Join</a></li>
-							<li><a href="logout.jsp">Log-out</a></li>
+							<li><a href="logout.do">Log-out</a></li>
 
 						</ul></li>
+					<c:if test="${cust_id eq 'admin' }">
 					<li><a href="admin.jsp">Admin</a></li>
+					</c:if>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->

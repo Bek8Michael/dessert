@@ -31,7 +31,7 @@
         <!-- Image Header -->
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="http://placehold.it/1200x300" alt="">
+                <img class="img-responsive" src="http://blog.tipntag.com/wp-content/uploads/2016/12/4.png" alt="test">
             </div>
         </div>
         <!-- /.row -->
@@ -277,7 +277,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Your D'easyert 2017</p>
                 </div>
             </div>
         </footer>

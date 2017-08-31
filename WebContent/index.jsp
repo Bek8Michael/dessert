@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+   
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +10,7 @@
 
 <body>
 <%@include file="topMenu.jsp" %>
+<%-- <%@ include file="loginChk.jsp" %> --%>
 <div class="container">
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
@@ -171,7 +173,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Dessert Company 2017</p>
+                    <p>Copyright &copy; Your D'easyert 2017</p>
                 </div>
             </div>
         </footer>

@@ -39,7 +39,7 @@
 		<footer>
 			<div class="row">
 				<div class="col-lg-12">
-					<p>Copyright &copy; Your Dessert site 2017</p>
+					<p>Copyright &copy; Your D'easyert 2017</p>
 				</div>
 			</div>
 		</footer>

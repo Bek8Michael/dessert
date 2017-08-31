@@ -100,7 +100,7 @@
 		</div>
 		<!-- /.row -->
 
-		<a href="list.do">회원 목록</a>
+		
 	</div>
 	
 </body>
