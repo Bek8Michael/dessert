@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+<%@ include file="loginChk.jsp" %>
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
@@ -45,7 +45,7 @@
 					<li class="dropdown"><a  class="dropdown-toggle"
 						data-toggle="dropdown">Login <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="login.jsp">Log-in</a></li>
+							<li><a href="loginForm.jsp">Log-in</a></li>
 							<li><a href="customerJoinForm.do">Join</a></li>
 							<li><a href="logout.jsp">Log-out</a></li>
 

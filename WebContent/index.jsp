@@ -95,32 +95,32 @@
                 <h2 class="page-header">Portfolio Heading</h2>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.jsp">
+                <a href="menu-newhotForm.do">
                     <img class="img-responsive img-portfolio img-hover" src="./image/5.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.jsp">
+                <a href="menu-category.jsp">
                     <img class="img-responsive img-portfolio img-hover" src="./image/5.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.jsp">
+                <a href="menu-item.jsp">
                     <img class="img-responsive img-portfolio img-hover" src="./image/5.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.jsp">
+                <a href="menu-country.jsp">
                     <img class="img-responsive img-portfolio img-hover" src="./image/5.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.jsp">
+                <a href="menu-theme.jsp">
                     <img class="img-responsive img-portfolio img-hover" src="./image/5.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.jsp">
+                <a href="menu-review.jsp">
                     <img class="img-responsive img-portfolio img-hover" src="./image/5.jpg" alt="">
                 </a>
             </div>

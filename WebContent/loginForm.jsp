@@ -14,9 +14,9 @@
 	<!-- Page Content -->
 	<div class="container">
 		<div class="p inset">
-		<form action="login.do">
-			<table class="table">
-				<h3>Log in</h3>
+		<form action="login.do" method="post">
+			<table class="table" >
+				<h3 class="text-primary">Log in</h3>
 				<tr>
 					<th>아이디</th>
 					<td><input type="text" name="cust_id" required="required"
@@ -33,7 +33,7 @@
 			</table>
 		</form>
 		<hr class="hiden">
-		<a class="btn btn-primary" href="joinForm.do">회원가입</a>
+		<a class="btn btn-primary" href="customerJoinForm.do">회원가입</a>
 </div>
 		<!-- Footer -->
 		<footer>

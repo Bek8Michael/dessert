@@ -12,7 +12,7 @@
 <body>
 
 <div class="container">
-<table class = "table"><caption>Shop 목록</caption>
+<table class = "table table-bordered"><caption>Shop 목록</caption>
 	<tr><th>번호</th><th>Shop 상호</th><th>지역</th><th>주소</th><th>전화번호</th>
 	<th>영업시간</th><th>메뉴</th><th>등급</th><th>등록날짜</th><th>국가</th><th>삭제여부</th></tr>
 <c:forEach var="shop" items="${list }">
@@ -31,7 +31,7 @@
 </c:forEach>
 
 </table>
-<button onclick="location.href='customerJoinForm.jsp'"> ??? Shop정보 입력</button>
+<button onclick="location.href='index.jsp'"> 처음화면</button>
 </div>
 </body>
 </html>

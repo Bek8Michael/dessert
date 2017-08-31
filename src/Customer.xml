@@ -19,9 +19,9 @@
 <select id="list" resultMap="customerMap">
 	select * from customer order by cust_no
 </select>
-<!-- <select id="select" parameterType="int" resultType="customerMap">
-	select * from customer where deptno=#{deptno}
-</select> -->
+<select id="select" parameterType="String" resultType="customer">
+	select * from customer where cust_id=#{cust_id}
+</select>
 <insert id="insert" parameterType="customer">
 	insert into customer values (#{cust_no},#{cust_id},#{cust_pw},#{cust_name},#{cust_nick},#{cust_birth},
 	#{cust_tel},#{cust_addr},#{cust_grade},#{cust_point},#{cust_out},'n','n')

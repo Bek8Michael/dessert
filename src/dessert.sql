@@ -14,6 +14,7 @@ CREATE TABLE customer
 	cust_del             VARCHAR2(20)
 )
 insert into CUSTOMER values(0,'a0','a0','Tom0','Tony0',sysdate,'010-234-1234','Seoul','begginer',10,'n','n')
+insert into CUSTOMER values(1,'admin','admin','Tom0','Tony0',sysdate,'010-234-1234','Seoul','begginer',10,'n','n')
 insert into product values(2, 'cake2', 'korea', 'love', 'top', 0, 'n')
 delete CUSTOMER where cust_no =1
 select * from CUSTOMER

@@ -20,8 +20,11 @@ public class ShopDao {
 	private static SqlSession session;
 	static {
 		try {
+			System.out.println("1");
 			Reader read = Resources.getResourceAsReader("configuration.xml");
+			System.out.println("2");
 			SqlSessionFactory sf = new SqlSessionFactoryBuilder().build(read);
+			System.out.println("3");
 			session = sf.openSession(true);
 		} catch (IOException e) {
 			System.out.println("session생성실패"+e.getMessage());
