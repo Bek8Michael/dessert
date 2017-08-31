@@ -39,6 +39,9 @@ public class CustomerDao {
 	public int insert(Customer customer) {
 		return session.insert("customerns.insert", customer);
 	}
+	public int update(Customer customer) {
+		return session.update("customerns.update", customer);
+	}
 
 	public Customer select(String cust_id) {
 		return (Customer)session.selectOne("customerns.select", cust_id);

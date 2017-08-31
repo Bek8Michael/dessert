@@ -26,10 +26,10 @@
 	insert into customer values (#{cust_no},#{cust_id},#{cust_pw},#{cust_name},#{cust_nick},#{cust_birth},
 	#{cust_tel},#{cust_addr},#{cust_grade},#{cust_point},#{cust_out},'n','n')
 </insert>
-<!-- <update id="update" parameterType="customer">
-	update customer set dname=#{dname}, loc=#{loc} 
-		where deptno=#{deptno}
-</update> -->
+<update id="update" parameterType="customer">
+	update customer set cust_name=#{cust_name}, cust_nick=#{cust_nick}, cust_birth=#{cust_birth}, cust_tel=#{cust_tel}, cust_addr=#{cust_addr}  
+		where cust_id=#{cust_id}
+</update>
 <!-- <delete id="delete" parameterType="int">
 	update from customer where cust_id=#{cust_id}, cust_del='y'
 </delete> -->
